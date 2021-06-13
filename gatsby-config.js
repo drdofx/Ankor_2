@@ -7,6 +7,15 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Ankor Kelompok 3`,
     siteTitleAlt: `Ankor Kelompok 3`,
+    siteHeadline: `Karya aksi nyata - Ankor Kelompok 3`,
+    siteUrl: `https://ankorkel3.netlify.app`,
+    siteDescription: `Tugas akhir mata kuliah Anti Korupsi berupa karya aksi nyata melawan korupsi.`,
+    // Will be set on the html tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: ``,
   },
   flags: {
     FAST_DEV: true,
@@ -17,7 +26,6 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Poster`, slug: `/poster` },
           { name: `Art`, slug: `/art` },
           { name: `Tentang Kami`, slug: `/about` },
         ],

@@ -1,7 +1,8 @@
 import * as React from "react"
+import logo from "./32-01.svg";
 
 const Logo = () => (
-  <p>Yo</p>
+  <img src={logo} alt="logo kelompok 3" />
 )
 
 export default Logo
