@@ -5,7 +5,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitle: `Ankor Kelompok 3`,
+    siteTitleAlt: `Ankor Kelompok 3`,
   },
   flags: {
     FAST_DEV: true,
@@ -16,10 +17,11 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
+          { name: `Poster`, slug: `/poster` },
           { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          { name: `Tentang Kami`, slug: `/about` },
         ],
+        projectsUrl: `/poster`,
       },
     },
     googleAnalyticsTrackingId && {
