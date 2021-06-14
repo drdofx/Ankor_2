@@ -1,6 +1,4 @@
-require(`dotenv`).config({
-  path: `.env.${process.env.NODE_ENV}`
-})
+require(`dotenv`).config()
 
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
@@ -24,6 +22,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-KTVDZ9Z",
+        includeInDevelopment: true,
+      },
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
       options: {
@@ -38,7 +43,7 @@ module.exports = {
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-199446636-1`,
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     {
