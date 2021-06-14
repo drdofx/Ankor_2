@@ -1,4 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config({
+  path: `.env.${process.env.NODE_ENV}`
+})
 
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
