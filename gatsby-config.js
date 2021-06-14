@@ -26,10 +26,11 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Art`, slug: `/art` },
+          { name: `Wallpaper`, slug: `/wallpaper` },
           { name: `Tentang Kami`, slug: `/about` },
         ],
         projectsUrl: `/poster`,
+        homepageProjectLimit: 5,
       },
     },
     googleAnalyticsTrackingId && {
