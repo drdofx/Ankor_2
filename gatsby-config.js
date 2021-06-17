@@ -44,7 +44,7 @@ module.exports = {
           { name: `Tentang Kami`, slug: `/about` },
         ],
         projectsUrl: `/poster`,
-        homepageProjectLimit: 5,
+        homepageProjectLimit: 10,
       },
     },
     googleAnalyticsTrackingId && {
