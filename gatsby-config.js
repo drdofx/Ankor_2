@@ -8,8 +8,8 @@ module.exports = {
     siteTitle: `Ankor Kelompok 3`,
     siteTitleAlt: `Ankor Kelompok 3`,
     siteHeadline: `Karya aksi nyata - Ankor Kelompok 3`,
-    siteUrl: `https://ankorkel3.netlify.app`,
-    siteDescription: `Tugas akhir mata kuliah Anti Korupsi berupa karya aksi nyata melawan korupsi.`,
+    siteUrl: `https://ankorparamadina3.me`,
+    siteDescription: `Tugas akhir mata kuliah Antikorupsi berupa karya aksi nyata melawan korupsi.`,
     // Will be set on the html tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
@@ -72,9 +72,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `Ankor Kelompok 3`,
+        short_name: `Ankor 3`,
+        description: `Karya aksi nyata mata kuliah antikorupsi Universitas Paramadina.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#b75e09`,
